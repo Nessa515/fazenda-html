@@ -40,3 +40,40 @@ header{
     left: 48%;
     top: 18%;
 }
+
+.fundo .title{
+    position: absolute;
+    background-color: #1B4436;
+    opacity: 0.8;
+    top: 50%;
+    left: 38%;
+    width: 523px;
+    height: 83px;
+}
+
+.fundo .title > h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    top: 50%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards .card{
+    border: 1px #50AA5A solid;
+    border-radius: 20px 20px 0 0;
+    padding-right: 1%;
+    width: 386px;
+    height: 248px;
+    margin-right: 100px;
+    margin-top: 200px;
+}
+
+.card > h2{
+    align-items: center;
+}
