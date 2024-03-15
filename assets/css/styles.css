@@ -4,17 +4,22 @@
     box-sizing: border-box;
 }
 
+:root{
+    --cor-primaria: #1B4436;
+}
+
 header{
     font-family: "Quicksand", sans-serif;
 }
 
 .cabecalho{
-    background-color: #1B4436;
+    background-color: var(--cor-primaria);
+    height: 50px;
 }
 
 .cabecalho ul li{
     display: inline;
-    text-align: center;
+    
 }
 
 .cabecalho ul li a{
@@ -24,7 +29,8 @@ header{
 }
 
 .cabecalho ul{
-    text-align: center;
+    padding-left: 50px;
+    padding-top: 10px;
 }
 
 .fundo{
@@ -43,7 +49,7 @@ header{
 
 .fundo .title{
     position: absolute;
-    background-color: #1B4436;
+    background-color: var(--cor-primaria);
     opacity: 0.8;
     top: 50%;
     left: 38%;
@@ -71,9 +77,11 @@ header{
     width: 386px;
     height: 248px;
     margin-right: 100px;
-    margin-top: 200px;
+    margin-top: 220px;
 }
-
-.card > h2{
-    align-items: center;
+.card > button{
+    width: 387px;
+    height: 44px;
+    background-color: #50AA5A;
+    border-radius: 0 0 20px 20px;
 }
