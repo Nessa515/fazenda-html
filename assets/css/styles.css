@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: "Quicksand", sans-serif;
+}
+
+.cabecalho{
+    background-color: #1B4436;
+}
+
+.cabecalho ul li{
+    display: inline;
+    text-align: center;
+}
+
+.cabecalho ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0.5%;
+}
+
+.cabecalho ul{
+    text-align: center;
+}
+
+.fundo{
+    position: relative;
+}
+
+.fundo .plantacao{
+    width: 100%;
+}
+
+.fundo .logo{
+    position: absolute;
+    left: 48%;
+    top: 18%;
+}
