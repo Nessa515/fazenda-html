@@ -64,3 +64,33 @@ header{
     top: 50%;
 }
 
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards .card{
+    width: 387px;
+    height: 390px;
+    border: 1px #1B4436 solid;
+    border-radius: 20px 20px 0 0;
+    margin: 20px;
+}
+
+.card > span{
+    background-color: #50AA5A;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card > h2{
+    font-size: 20px;
+}
+
+.card > p{
+    font-size: 14px;
+    margin: 2px;
+}
+
