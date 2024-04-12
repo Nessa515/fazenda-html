@@ -7,10 +7,11 @@
 :root{
     --cor-primaria: #1B4436;
     --cor-branco: #FFFFFF;
+    --font-primaria: "Quicksand", sans-serif;
 }
 
 header{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .cabecalho{
@@ -123,7 +124,7 @@ footer > p{
 /* ------ Produção de Uvas ------ */
 
 .uva{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .uva h2{
@@ -155,7 +156,7 @@ footer > p{
 /* ------ Gado de corte ------ */
 
 .laranja{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .laranja h2{
@@ -188,7 +189,7 @@ footer > p{
 /* ------ Produção de laranja ------ */
 
 .laranja{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .laranja h2{
@@ -220,7 +221,7 @@ footer > p{
 /* ------ Caprinos ------ */
 
 .caprino{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .caprino h2{
@@ -252,7 +253,7 @@ footer > p{
 /* ------ Produção de ovos ------ */
 
 .ovos{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .ovos h2{
@@ -285,7 +286,7 @@ footer > p{
 /* ------ Produção de tomates ------ */
 
 .tomates{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .tomates h2{
@@ -318,7 +319,7 @@ footer > p{
 /* ------ Hortifrutis------ */
 
 .hortifruti{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .hortifruti h2{
